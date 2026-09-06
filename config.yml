@@ -39,7 +39,7 @@ permissions:
   - bungeecord.command.find
   - bungeecord.command.perms
 listeners:
-- query_port: 25577
+- query_port: 25565
   motd: '§b§l❖ §c§lBeastSMP §6§l1.21 §b§l❖\n§b❖ §7§lDiscord\: §bdiscord.gg/yCNSKMyS ❖'
   tab_list: GLOBAL_PING
   query_enabled: false
