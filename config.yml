@@ -23,7 +23,7 @@ stats: 530d2372-eb14-49f8-b313-8e129a503dfd
 groups:
   md_5:
   - admin
-ip_forward: false
+ip_forward: true
 permissions:
   default:
   - bungeecord.command.server
