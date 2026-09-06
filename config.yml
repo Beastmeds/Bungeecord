@@ -13,7 +13,7 @@ disabled_commands:
 - disabledcommandhere
 max_packets_data_per_second: 33554432
 reject_transfers: false
-player_limit: -1
+player_limit: 1000
 prevent_proxy_connections: false
 connection_throttle_limit: 3
 connection_throttle: 4000
@@ -40,7 +40,9 @@ permissions:
   - bungeecord.command.perms
 listeners:
 - query_port: 25565
-  motd: '§b§l❖ §c§lBeastSMP §6§l1.21 §b§l❖\n§b❖ §7§lDiscord\: §bdiscord.gg/yCNSKMyS ❖'
+  motd: |-
+    &b&l❖ &c&lBeastSMP &6&l1.21 &b&l❖
+    &b❖ &7&lDiscord: &bdiscord.gg/yCNSKMyS &b❖
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -51,7 +53,7 @@ listeners:
   - BeastSMP
   bind_local_address: true
   host: 0.0.0.0:25565
-  max_players: 1
+  max_players: 1000
   tab_size: 60
   force_default_server: false
 enforce_secure_profile: false
