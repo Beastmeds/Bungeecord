@@ -1,0 +1,43 @@
+17:45:02 [INFORMATION] Using standard Java JCE cipher.
+17:45:02 [INFORMATION] Using standard Java compressor.
+17:45:02 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:7e5a616:2089
+17:45:02 [INFORMATION] Not on Windows, attempting to use enhanced EpollEventLoop
+17:45:02 [WARNUNG] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+17:45:02 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+17:45:02 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+17:45:02 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+17:45:02 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+17:45:02 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+17:45:02 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:45:02 [INFORMATION] Attempting to update plugin from null to ModuleVersion(build=2089, git=7e5a616)
+17:45:02 [INFORMATION] Attempting to Jenkins download module cmd_alert v2089
+17:45:02 [INFORMATION] Download complete
+17:45:02 [INFORMATION] Attempting to update plugin from null to ModuleVersion(build=2089, git=7e5a616)
+17:45:02 [INFORMATION] Attempting to Jenkins download module cmd_find v2089
+17:45:03 [INFORMATION] Download complete
+17:45:03 [INFORMATION] Attempting to update plugin from null to ModuleVersion(build=2089, git=7e5a616)
+17:45:03 [INFORMATION] Attempting to Jenkins download module cmd_list v2089
+17:45:03 [INFORMATION] Download complete
+17:45:03 [INFORMATION] Attempting to update plugin from null to ModuleVersion(build=2089, git=7e5a616)
+17:45:03 [INFORMATION] Attempting to Jenkins download module cmd_send v2089
+17:45:03 [INFORMATION] Download complete
+17:45:03 [INFORMATION] Attempting to update plugin from null to ModuleVersion(build=2089, git=7e5a616)
+17:45:03 [INFORMATION] Attempting to Jenkins download module cmd_server v2089
+17:45:04 [INFORMATION] Download complete
+17:45:04 [INFORMATION] Attempting to update plugin from null to ModuleVersion(build=2089, git=7e5a616)
+17:45:04 [INFORMATION] Attempting to Jenkins download module reconnect_yaml v2089
+17:45:04 [INFORMATION] Download complete
+17:45:04 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [WARNUNG] Forced host server pvp is not defined
+17:45:04 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:45:04 [INFORMATION] Listening on /0.0.0.0:25577
