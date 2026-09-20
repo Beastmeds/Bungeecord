@@ -15,7 +15,7 @@ servers:
     restricted: false
   Lobby:
     motd: ''
-    address: 109.69.175.92:25565
+    address: localhost:25567
     restricted: false
 disabled_commands:
 - disabledcommandhere
