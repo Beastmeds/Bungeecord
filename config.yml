@@ -13,6 +13,10 @@ servers:
     motd: '\u00a75                   \u06de\u00a74\u00a7l  SMP Server \u00a75\u06de\n        \u00a76\u00a7l\u21e8\u00a7d\u00a7k   BeastSMP\u00a7c  By BeastSMP \u00a7d\u00a7kPMStsaeB.   \u00a76\u21e6'
     address: 109.69.175.92:25565
     restricted: false
+  Lobby:
+    motd: ''
+    address: 109.69.175.92:25565
+    restricted: false
 disabled_commands:
 - disabledcommandhere
 max_packets_data_per_second: 33554432
@@ -54,7 +58,7 @@ listeners:
     pvp.md-5.net: pvp
   ping_passthrough: false
   priorities:
-  - BeastSMP
+  - Lobby
   bind_local_address: true
   host: 0.0.0.0:25565
   max_players: 1000
