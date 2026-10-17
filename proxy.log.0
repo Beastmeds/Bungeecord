@@ -53846,3 +53846,192 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.api.platf
 17:20:59 [INFORMATION] [Geyser-BungeeCord] Registered 1 custom items
 17:21:00 [INFORMATION] [Geyser-BungeeCord] Started Geyser on UDP port 19132
 17:21:00 [INFORMATION] [Geyser-BungeeCord] Done (1,431s)! Run /geyser help for help!
+18:21:20 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:22:00 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:22:42 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:22:50 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:22:50 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:23:28 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:23:36 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:23:36 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:24:14 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:24:22 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:24:22 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:25:02 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:25:46 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:26:28 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:27:12 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:27:21 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:27:21 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:28:05 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:28:13 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:28:13 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:28:57 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:29:37 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:30:17 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:30:25 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:30:25 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:31:09 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:31:51 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:32:33 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:33:17 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:34:01 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:34:41 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:34:49 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:34:49 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:35:32 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:36:14 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:36:57 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:37:41 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:38:23 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:39:07 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:39:16 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:39:16 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:39:57 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:40:05 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:40:05 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:40:49 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:41:30 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:41:39 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:41:39 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:42:19 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:43:02 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:43:43 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:44:23 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:45:07 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:45:15 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:45:15 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:45:55 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:46:03 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:46:03 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:46:47 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:47:28 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:48:08 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:48:52 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:49:32 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:50:15 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:50:58 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:51:07 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:51:07 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:51:48 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:52:28 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:53:10 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:53:19 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+18:53:19 [WARNUNG] [Geyser-BungeeCord] Error while handling onClose
+java.lang.IllegalArgumentException: Invalid JSON: api.geysermc.org
+	at org.geysermc.geyser.util.JsonUtils.parseJson(JsonUtils.java:56)
+	at org.geysermc.geyser.skin.FloodgateSkinUploader$1.onClose(FloodgateSkinUploader.java:204)
+	at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:619)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:522)
+	at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:545)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:485)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+18:53:58 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:54:42 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:55:25 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:56:09 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
+18:56:50 [WARNUNG] [Geyser-BungeeCord] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org: nodename nor servname provided, or not known
