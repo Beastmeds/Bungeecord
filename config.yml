@@ -4,34 +4,36 @@ remote_ping_cache: -1
 online_mode: true
 forge_support: false
 max_packets_per_second: 4096
-servers:
-  BeastSMP:
-    motd: '§b§l❖ §c§lBeastSMP §6§l1.21 §b§l❖\n§b❖ §7§lDiscord\: §bdiscord.gg/yCNSKMyS ❖'
-    address: localhost:25566
-    restricted: false
-  SMP:
-    motd: '\u00a75                   \u06de\u00a74\u00a7l  SMP Server \u00a75\u06de\n        \u00a76\u00a7l\u21e8\u00a7d\u00a7k   BeastSMP\u00a7c  By BeastSMP \u00a7d\u00a7kPMStsaeB.   \u00a76\u21e6'
-    address: 109.69.175.92:25565
-    restricted: false
-  Lobby:
-    motd: ''
-    address: localhost:25567
-    restricted: false
+ip_forward: true
 disabled_commands:
 - disabledcommandhere
 max_packets_data_per_second: 33554432
 reject_transfers: false
 player_limit: 1000
-prevent_proxy_connections: false
-connection_throttle_limit: 3
 connection_throttle: 4000
+connection_throttle_limit: 3
+prevent_proxy_connections: false
 log_commands: false
 log_pings: true
 stats: 530d2372-eb14-49f8-b313-8e129a503dfd
 groups:
   md_5:
   - admin
-ip_forward: true
+servers:
+  BeastSMP:
+    motd: '§b§l❖ §c§lBeastSMP §6§l1.21 §b§l❖\n§b❖ §7§lDiscord\: §bdiscord.gg/yCNSKMyS
+      ❖'
+    address: localhost:25566
+    restricted: false
+  SMP:
+    motd: \u00a75                   \u06de\u00a74\u00a7l  SMP Server \u00a75\u06de\n        \u00a76\u00a7l\u21e8\u00a7d\u00a7k   BeastSMP\u00a7c  By
+      BeastSMP \u00a7d\u00a7kPMStsaeB.   \u00a76\u21e6
+    address: 109.69.175.92:25565
+    restricted: false
+  Lobby:
+    motd: ''
+    address: localhost:25567
+    restricted: false
 permissions:
   default:
   - bungeecord.command.server
