@@ -53748,3 +53748,101 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.api.platf
 15:11:03 [INFO] [/23.234.114.122:52268] <-> InitialHandler has pinged
 15:11:17 [INFO] [/176.65.148.253:65471] <-> InitialHandler has pinged
 15:11:17 [INFO] [/46.225.102.211:37482] <-> InitialHandler has pinged
+17:20:57 [INFORMATION] Using standard Java JCE cipher.
+17:20:57 [INFORMATION] Using standard Java compressor.
+17:20:57 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:7e5a616:2089
+17:20:57 [INFORMATION] Not on Windows, attempting to use enhanced EpollEventLoop
+17:20:57 [WARNUNG] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+17:20:57 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+17:20:57 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+17:20:57 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+17:20:57 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+17:20:57 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+17:20:57 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:20:57 [INFORMATION] [Geyser-BungeeCord] Loading extensions...
+17:20:57 [INFORMATION] [Geyser-BungeeCord] Loaded 0 extension(s)
+17:20:57 [INFORMATION] Loaded plugin Geyser-BungeeCord version 2.11.3-SNAPSHOT by GeyserMC
+17:20:57 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [WARNUNG] Error loading plugin ViaVersion
+java.lang.IllegalArgumentException: You need to place the main ViaVersion jar in plugins/ViaVersion/
+	at com.viaversion.bungee.ViaBungeePlugin.loadImplementation(ViaBungeePlugin.java:44)
+	at com.viaversion.bungee.ViaBungeePlugin.onLoad(ViaBungeePlugin.java:32)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:363)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:269)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:289)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:69)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+17:20:57 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [WARNUNG] [floodgate] de_AT is not a supported Floodgate language.
+17:20:57 [INFORMATION] [floodgate] Took 139ms to boot Floodgate
+17:20:57 [INFORMATION] Loaded plugin floodgate version 2.2.5-SNAPSHOT (b141-81b65cc) by GeyserMC
+17:20:57 [INFORMATION] Loaded plugin BungeeGuard version 1.4-SNAPSHOT by Luck
+17:20:57 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [WARNUNG] Error loading plugin ViaBackwards
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:962)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:144)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:169)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:74)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:359)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:269)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:289)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:69)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:111)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	... 13 more
+17:20:57 [INFORMATION] Loaded plugin BeastPresence version 1.0.0 by BeastSMP
+17:20:57 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [WARNUNG] Forced host server pvp is not defined
+17:20:57 [INFORMATION] Enabled plugin Geyser-BungeeCord version 2.11.3-SNAPSHOT by GeyserMC
+17:20:57 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [WARNUNG] Exception encountered when loading plugin: ViaVersion
+java.lang.NoClassDefFoundError: com/viaversion/viaversion/api/platform/ViaServerProxyPlatform
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:962)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:144)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:169)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:74)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at com.viaversion.bungee.ViaBungeePlugin.onEnable(ViaBungeePlugin.java:38)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:284)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:303)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:69)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.api.platform.ViaServerProxyPlatform
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:111)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	... 13 more
+17:20:57 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [INFORMATION] Enabled plugin floodgate version 2.2.5-SNAPSHOT (b141-81b65cc) by GeyserMC
+17:20:57 [INFORMATION] Enabled plugin BungeeGuard version 1.4-SNAPSHOT by Luck
+17:20:57 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [INFORMATION] [BeastPresence] Public presence enabled; source=/root/lobbyMc/plugins/BeastBots/presence.json
+17:20:57 [INFORMATION] Enabled plugin BeastPresence version 1.0.0 by BeastSMP
+17:20:57 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:20:57 [INFORMATION] Listening on /0.0.0.0:25565
+17:20:58 [INFORMATION] [Geyser-BungeeCord] ******************************************
+17:20:58 [INFORMATION] [Geyser-BungeeCord] 
+17:20:58 [INFORMATION] [Geyser-BungeeCord] Loading Geyser version 2.11.3-b1245 (git-master-2808f7d)
+17:20:58 [INFORMATION] [Geyser-BungeeCord] 
+17:20:58 [INFORMATION] [Geyser-BungeeCord] ******************************************
+17:20:59 [INFORMATION] [Geyser-BungeeCord] Registered 199 custom block overrides.
+17:20:59 [INFORMATION] [Geyser-BungeeCord] Registered 2 custom block item overrides.
+17:20:59 [INFORMATION] [Geyser-BungeeCord] Registered 7 custom blocks.
+17:20:59 [INFORMATION] [Geyser-BungeeCord] Registered 1 custom items
+17:21:00 [INFORMATION] [Geyser-BungeeCord] Started Geyser on UDP port 19132
+17:21:00 [INFORMATION] [Geyser-BungeeCord] Done (1,431s)! Run /geyser help for help!

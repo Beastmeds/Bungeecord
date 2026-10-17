@@ -1,0 +1,129 @@
+17:21:39 [INFORMATION] Using standard Java JCE cipher.
+17:21:39 [INFORMATION] Using standard Java compressor.
+17:21:39 [INFORMATION] Enabled BungeeCord version git:BungeeCord-Bootstrap:26.1-R0.1-SNAPSHOT:7e5a616:2089
+17:21:39 [INFORMATION] Not on Windows, attempting to use enhanced EpollEventLoop
+17:21:39 [WARNUNG] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:42
+17:21:39 [INFORMATION] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+17:21:39 [INFORMATION] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+17:21:39 [INFORMATION] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+17:21:39 [INFORMATION] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+17:21:39 [INFORMATION] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+17:21:39 [INFORMATION] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:21:39 [WARNUNG] Error loading plugin Geyser-BungeeCord
+java.lang.UnsupportedClassVersionError: org/geysermc/geyser/platform/bungeecord/GeyserBungeePlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:169)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:74)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:359)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:269)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:289)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:69)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+17:21:39 [INFORMATION] Loaded plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [INFORMATION] Loaded plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [WARNUNG] Error loading plugin ViaVersion
+java.lang.IllegalArgumentException: You need to place the main ViaVersion jar in plugins/ViaVersion/
+	at com.viaversion.bungee.ViaBungeePlugin.loadImplementation(ViaBungeePlugin.java:44)
+	at com.viaversion.bungee.ViaBungeePlugin.onLoad(ViaBungeePlugin.java:32)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:363)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:269)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:289)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:69)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+17:21:39 [INFORMATION] Loaded plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [INFORMATION] Loaded plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [WARNUNG] [floodgate] de_AT is not a supported Floodgate language.
+17:21:39 [INFORMATION] [floodgate] Took 191ms to boot Floodgate
+17:21:39 [INFORMATION] Loaded plugin floodgate version 2.2.5-SNAPSHOT (b141-81b65cc) by GeyserMC
+17:21:39 [INFORMATION] Loaded plugin BungeeGuard version 1.4-SNAPSHOT by Luck
+17:21:39 [INFORMATION] Loaded plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [WARNUNG] Error loading plugin ViaBackwards
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:169)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:74)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:359)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:269)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:289)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:69)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:111)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 13 more
+17:21:39 [WARNUNG] Error loading plugin BeastPresence
+java.lang.UnsupportedClassVersionError: de/beastsmp/presence/BeastPresence has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:169)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:74)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:359)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:269)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:289)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:69)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+17:21:39 [INFORMATION] Loaded plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [WARNUNG] Forced host server pvp is not defined
+17:21:39 [INFORMATION] Enabled plugin reconnect_yaml version git:reconnect_yaml:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [INFORMATION] Enabled plugin cmd_find version git:cmd_find:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [WARNUNG] Exception encountered when loading plugin: ViaVersion
+java.lang.NoClassDefFoundError: com/viaversion/viaversion/api/platform/ViaServerProxyPlatform
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:169)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:74)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at com.viaversion.bungee.ViaBungeePlugin.onEnable(ViaBungeePlugin.java:38)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:284)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:303)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:69)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.api.platform.ViaServerProxyPlatform
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:111)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:67)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 13 more
+17:21:39 [INFORMATION] Enabled plugin cmd_server version git:cmd_server:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [INFORMATION] Enabled plugin cmd_alert version git:cmd_alert:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [INFORMATION] Enabled plugin floodgate version 2.2.5-SNAPSHOT (b141-81b65cc) by GeyserMC
+17:21:39 [INFORMATION] Enabled plugin BungeeGuard version 1.4-SNAPSHOT by Luck
+17:21:39 [INFORMATION] Enabled plugin cmd_send version git:cmd_send:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [INFORMATION] Enabled plugin cmd_list version git:cmd_list:26.1-R0.1-SNAPSHOT:7e5a616:2089 by SpigotMC
+17:21:39 [WARNUNG] Could not bind to host /0.0.0.0:25565
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:567)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:431)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:500)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$1.run(AbstractBootstrap.java:381)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:840)
