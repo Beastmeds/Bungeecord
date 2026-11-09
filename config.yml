@@ -26,9 +26,8 @@ servers:
     restricted: false
   CityBuild:
     motd: ''
-    adress: 178.115.154.85:25566
+    adress: 144.24.195.149:25565
     restricted: false
-    address: localhost:25565
 permissions:
   default:
   - bungeecord.command.server
